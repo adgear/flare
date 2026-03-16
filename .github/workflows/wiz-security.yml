@@ -7,7 +7,7 @@ on:
     branches: [ master, main ]
 
 jobs:
-  wiz-vulnerability-scanner:
+  Wiz-Vulnerability-Scanner:
     runs-on: ubuntu-latest
     name: Wiz Vulnerability Scanner
 
@@ -22,7 +22,7 @@ jobs:
         # In a real setup, this would integrate with Wiz security platform
         echo "Wiz Vulnerability Scanner completed successfully"
 
-  wiz-iac-scanner:
+  Wiz-IaC-Scanner:
     runs-on: ubuntu-latest
     name: Wiz IaC Scanner
 
