@@ -7,7 +7,7 @@ on:
     branches: [ master, main ]
 
 jobs:
-  ai-label-check:
+  AI_Label_Check:
     runs-on: ubuntu-latest
     name: AI Label Check
 
